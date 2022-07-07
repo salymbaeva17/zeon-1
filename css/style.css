@@ -397,6 +397,84 @@ svg.social-media path {
     transition: .5s;
 }
 
+.social-media:hover {
+    cursor: pointer;
+}
+
 .social-media:hover path {
     fill: #40A385;
+}
+
+.tags {
+    margin-bottom: 66px;
+}
+
+.tags__title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 28px;
+}
+
+.tags__hash {
+    color: #FFFFFF;
+    background-color: #3D8B74;
+    padding: 13px 15px 12px;
+    margin: 0 9.3px 13px 0;
+    display: inline-block;
+    min-width: 85.38px;
+    text-align: center;
+    transition: .6s;
+}
+
+.tags__hash:first-child {
+    padding-left: 16px;
+    padding-right: 15.95px;
+}
+
+.tags__hash:nth-child(3) {
+    margin-right: 20px;
+    padding: 13px 14px 12px 15px;
+}
+
+.tags__hash:nth-child(4) {
+    padding: 13px 13px 12px 15px;
+}
+
+.tags__hash:nth-child(5) {
+    padding: 13px 9.23px 12px 12px;
+    margin: 0 100px 13px 0;
+}
+
+.tags__hash:nth-child(6) {
+    padding: 13px 19.4px 12px 12px;
+    margin: 0 10.3px 29px 0;
+}
+
+.tags__hash:nth-child(7) {
+    padding: 13px 10.3px 12px 12px;
+    margin: 0 0 0 -1px;
+}
+
+.tags__hash:hover {
+    background-color: #40A385;
+}
+
+.tags__link {
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    display: block;
+    margin-left: -1px;
+    text-decoration: none;
+    position: relative;
+}
+
+.tags__link::before {
+    position: absolute;
+    content: '';
+    width: 80.36px;
+    height: 1px;
+    background-color: #454545;
+    bottom: 1px;
+    left: 0;
 }
