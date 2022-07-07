@@ -303,3 +303,66 @@ p.content__overlay-caption {
 .content__desc {
     margin: 18px 0 20px;
 }
+
+
+.pagination {
+    height: 54px;
+    width: 953px;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.pagination__container {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+    justify-content: flex-end;
+}
+
+.pagination__page {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 1.5px;
+    color: #232323;
+    padding: 3px 7.5px;
+    transition: .6s;
+}
+
+.pagination__arrow:first-child svg {
+    margin-right: 12px;
+    margin-top: 3px;
+}
+
+.pagination__arrow:last-child svg {
+    margin-left: 12px;
+    margin-right: -4px;
+    margin-top: 2px;
+}
+
+.pagination__page:not(:first-child) {
+    margin-left: 21px;
+}
+
+.pagination__page:active {
+    background-color: #3D8B74;
+    font-weight: 800;
+    color: #fff;
+}
+
+.pagination__page:nth-child(5):active,
+.pagination__page:first-child:active,
+.pagination__page:last-child:active {
+    background-color: #3D8B74;
+    font-weight: 400;
+    color: #fff;
+}
