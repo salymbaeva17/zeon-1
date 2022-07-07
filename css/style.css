@@ -457,6 +457,7 @@ svg.social-media path {
 }
 
 .tags__hash:hover {
+    cursor: pointer;
     background-color: #40A385;
 }
 
@@ -498,4 +499,105 @@ svg.social-media path {
 .about__desc {
     max-width: 284px;
     margin-left: 1px;
+}
+
+.subscribe {
+    grid-area: 3 / 1 / 4 / 4;
+    margin-top: 93px;
+    margin-left: 1px;
+
+    height: 329px;
+    background: #E2EEEA;
+    text-align: center;
+    padding: 67px 0 64px;
+}
+
+.subscribe__title {
+    font-weight: 700;
+}
+
+.subscribe__desc {
+    margin: 18px 0 41px;
+    padding: 0 358px;
+    line-height: 20.08px;
+}
+
+.subscribe__form {
+    width: 792px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subscribe__input-name {
+    font-family: 'Mulish', sans-serif;
+    color: #232323;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 1.5px;
+    border: 1px solid transparent;
+    background: #fff;
+    width: 245px;
+    height: 55px;
+    padding: 21px 0 22px 26px;
+    margin-right: -8px;
+}
+
+.subscribe__input-name::placeholder,
+.subscribe__input-email::placeholder {
+    font-style: italic;
+    color: #797979;
+
+}
+
+.subscribe__input-name:focus {
+    outline: none;
+    border: 1px solid #3D8B74;
+}
+
+.subscribe__input-email {
+    font-family: 'Mulish', sans-serif;
+    color: #232323;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 1.5px;
+    border: 1px solid transparent;
+    background: #fff;
+    width: 368px;
+    height: 55px;
+    padding: 21px 0 22px 26px;
+    margin: 0 16px 0 22px;
+}
+
+.subscribe__input-email:focus {
+    outline: none;
+    border: 1px solid #3D8B74;
+}
+
+.subscribe__btn {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    display: inline-block;
+    align-items: center;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 134px;
+    height: 55px;
+    background: #3D8B74;
+    border-top: 4px solid #3D8B74;
+    border-bottom: 2px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 2px solid transparent;
+    transition: .6s;
+    margin-top: -2px;
+}
+
+.subscribe__btn:hover {
+    background: #40A385;
 }
