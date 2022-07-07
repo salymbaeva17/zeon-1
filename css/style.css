@@ -134,3 +134,69 @@ a {
     font-weight: 800;
     padding: 4px 2px;
 }
+
+.hero {
+    margin-top: 32px;
+    height: 595px;
+    grid-area: 1 / 1 / 2 / 4;
+}
+
+.hero__container {
+    margin: 0 47px 0 48px;
+    background: url("../images/hero.png") no-repeat center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1347px;
+    height: 100%;
+}
+
+.hero__box {
+    height: 365px;
+    width: 723px;
+    background: rgba(255, 255, 255, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 59px 87px 57px;
+    text-align: center;
+}
+
+.hero__title {
+    font-size: 28px;
+    line-height: 28px;
+    width: 406px;
+    color: #232323;
+    margin-left: 5px;
+    margin-top: 1px;
+}
+
+.hero__desc {
+    font-size: 18px;
+    line-height: 23px;
+    margin: 26px -2px 43px 0;
+
+}
+
+.hero__btn {
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    width: 292px;
+    height: 55px;
+    vertical-align: center;
+    border: none;
+    background: #3D8B74;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    margin-right: -3px;
+    padding-top: 6px;
+    padding-left: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1.1px;
+}
