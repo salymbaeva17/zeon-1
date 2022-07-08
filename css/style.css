@@ -126,7 +126,7 @@ a {
     font-size: 18px;
     line-height: 23px;
     letter-spacing: 1.5px;
-    padding: 5px 4px;
+    padding: 4px;
 }
 
 .header__link:hover {
@@ -379,17 +379,15 @@ p.content__overlay-caption {
 .icons {
     display: flex;
     align-items: center;
-    margin: 12px 0 58px 1px;
+    margin: 12px 0 54px 1px;
 }
 
 .social-media {
     color: #454545;
-    font-size: 22px;
     margin-right: 27px;
 }
 
 .social-media:nth-child(1) {
-    font-size: 20px;
     margin-right: 30.6px;
 }
 
@@ -439,6 +437,7 @@ svg.social-media path {
 
 .tags__hash:nth-child(4) {
     padding: 13px 13px 12px 15px;
+    margin: 0 10px 13px 0;
 }
 
 .tags__hash:nth-child(5) {
@@ -448,7 +447,7 @@ svg.social-media path {
 
 .tags__hash:nth-child(6) {
     padding: 13px 19.4px 12px 12px;
-    margin: 0 10.3px 29px 0;
+    margin: 0 11px 29px 0;
 }
 
 .tags__hash:nth-child(7) {
@@ -465,7 +464,6 @@ svg.social-media path {
     font-weight: 400;
     letter-spacing: 1.5px;
     display: block;
-    margin-left: -1px;
     text-decoration: none;
     position: relative;
 }
@@ -491,14 +489,14 @@ svg.social-media path {
 }
 
 .about__img {
-    margin: 17px 0 18.2px;
+    margin: 17px 0 19px;
     width: 277px;
     height: 276px;
 }
 
 .about__desc {
     max-width: 284px;
-    margin-left: 1px;
+    margin-left: 0.5px;
 }
 
 .subscribe {
@@ -622,7 +620,7 @@ svg.social-media path {
 }
 
 .footer__title {
-    margin: 23px 0 10px -1px;
+    margin: 23px 0 11px -1px;
     font-size: 38px;
     line-height: 38px;
     color: #FFFFFF;
@@ -630,7 +628,7 @@ svg.social-media path {
 
 .footer__icons {
     color: #FFFFFF;
-    margin: 12px 0 42px 27px;
+    margin: 12px 0 37px 27px;
 
 }
 
@@ -652,5 +650,5 @@ svg.social-media path {
     color: #FFFFFF;
     height: 92px;
     background: #323232;
-    padding-top: 34px;
+    padding-top: 35px;
 }
