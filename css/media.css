@@ -322,6 +322,7 @@
         z-index: 1;
     }
 
+
     .header__link {
         color: #fff;
     }
@@ -329,6 +330,8 @@
     .header__mobile-menu {
         display: block;
         z-index: 1;
+        background: transparent;
+        border: none;
     }
 
     .hero__container {
@@ -499,7 +502,7 @@
     }
 
     .header__logo {
-        margin-bottom: 10px;
+        margin-bottom: 0;
     }
 
     .header__menu {
@@ -507,6 +510,9 @@
         margin-bottom: 10px;
 
     }
+    .header__mobile-menu {
+        border: none;
+        background-color: transparent;}
 
     .header__link {
         font-size: 14px;
@@ -651,20 +657,8 @@
 }
 
 @media (max-width: 480px) {
-
-}
-
-@media (max-width: 320px) {
-    .container {
-        max-width: 320px;
+    .container{
+        max-width: 480px;
     }
 
-    .header__container {
-        margin: 0 20px;
-    }
-
-    .header__logo {
-        font-size: 20px;
-        line-height: 20px;
-    }
 }
