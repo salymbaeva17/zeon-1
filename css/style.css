@@ -44,7 +44,8 @@ a {
     grid-gap: 0 25px;
     place-items: stretch stretch;
     place-content: stretch stretch;
-}
+
+    width: 100%;}
 
 .row {
     display: flex;
@@ -145,7 +146,7 @@ a {
 }
 
 .hero__container {
-    margin: 0 47px 0 48px;
+    margin: 0 auto;
     background: url("../images/hero.png") no-repeat center/cover;
     display: flex;
     align-items: center;
