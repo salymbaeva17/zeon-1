@@ -119,6 +119,9 @@ a {
     align-items: center;
     width: 444px;
 }
+.header__mobile-menu{
+    display: none;
+}
 
 .header__link {
     color: #818181;
