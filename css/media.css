@@ -885,7 +885,7 @@
     .hero__container {
         margin: 0 auto;
         max-width: 95%;
-        height: calc(100vh - 64px);
+        height: 394px;
     }
 
     .hero__box {
