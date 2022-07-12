@@ -617,6 +617,7 @@ svg.social-media path {
 
 .subscribe__btn:hover {
     background: #40A385;
+    border-top-color: #40a385;
 }
 
 .footer {
