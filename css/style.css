@@ -45,7 +45,8 @@ a {
     place-items: stretch stretch;
     place-content: stretch stretch;
 
-    width: 100%;}
+    width: 100%;
+}
 
 .row {
     display: flex;
@@ -119,8 +120,10 @@ a {
     justify-content: space-between;
     align-items: center;
     width: 444px;
+    transition: .6s;
 }
-.header__mobile-menu{
+
+.header__mobile-menu {
     display: none;
 }
 
@@ -130,13 +133,19 @@ a {
     font-size: 18px;
     line-height: 23px;
     letter-spacing: 1.5px;
-    padding: 4px;
 }
 
-.header__link:hover {
-    color: #3D8B74;
+.header__link:first-child {
     font-weight: 800;
-    padding: 4px 2px;
+    color: #3D8B74;
+}
+
+.header__link:not(:last-child) {
+    margin-right: 46px;
+}
+
+.header__link:nth-child(3) {
+    margin-right: 48px;
 }
 
 .hero {
@@ -218,8 +227,8 @@ a {
 
 .content__categories {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     width: 659px;
 }
 
@@ -236,9 +245,17 @@ a {
     font-weight .6s;
 }
 
-.content__categories-item:hover {
+.content__categories li:nth-child(3){
+    margin-left: -5px;
+
+}
+.content__categories li:nth-child(2) .content__categories-item {
     color: #3D8B74;
-    text-shadow: 0 0 2px #3D8B74;
+    font-weight: 800;
+}
+.content__categories li :not(:last-child){
+    margin-right: 45px;
+    display: inline-block;
 }
 
 .content__post {
@@ -309,8 +326,8 @@ p.content__overlay-caption {
 }
 
 .pagination {
-    height: 54px;
-    width: 953px;
+    height: 53px;
+    width: 954px;
     display: flex;
     align-items: flex-end;
 
@@ -356,7 +373,7 @@ p.content__overlay-caption {
     margin-left: 21px;
 }
 
-.pagination__page:active {
+.pagination__page:nth-child(3) {
     background-color: #3D8B74;
     font-weight: 800;
     color: #fff;
@@ -550,7 +567,6 @@ svg.social-media path {
 .subscribe__input-email::placeholder {
     font-style: italic;
     color: #797979;
-
 }
 
 .subscribe__input-name:focus {

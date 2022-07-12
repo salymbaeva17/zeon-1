@@ -5,9 +5,11 @@ const burgerSvg = document.querySelector('.header__mobile-menu svg path')
 
 mobileMenu.addEventListener('click', () => {
     headerMenu.classList.toggle('show')
-    burgerSvg.style.fill = burgerSvg.style.fill==='white'? 'black':'white'})
+    burgerSvg.style.fill = burgerSvg.style.fill === 'white' ? 'black' : 'white'
+})
 headerLinks.forEach(item => {
     item.addEventListener('click', () => {
         headerMenu.classList.remove('show')
+        burgerSvg.style.fill = burgerSvg.style.fill === 'white' ? 'black' : 'white'
     })
 })
