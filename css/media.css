@@ -331,6 +331,10 @@
         transition: .6s;
     }
 
+    .header__link{
+        font-size: 18px;
+        line-height: 22px;
+    }
     .header__link:not(:last-child) {
         margin: 0 0 15px;
     }
@@ -569,7 +573,7 @@
     }
 
     .header__link {
-        font-size: 14px;
+        font-size: 16px;
         line-height: 18px;
         padding: 0;
     }
